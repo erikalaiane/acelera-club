@@ -1,15 +1,15 @@
 import React from 'react';
-import Header from './components/Header.jsx';
-import Hero from './components/Hero.jsx/index.js';
-import About from './components/About.jsx/index.js';
-import Plans from './components/Plans.jsx/index.js';
-import Events from './components/Events.jsx/index.js';
-import Marketplace from './components/Marketplace.jsx/index.js';
-import Instagram from './components/Instagram.jsx/index.js';
-import Testimonials from './components/Testimonials.jsx/index.js';
-import AceleraLab from './components/AceleraLab.jsx/index.js';
-import Contact from './components/Contact.jsx/index.js';
-import Footer from './components/Footer.jsx/index.js';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
+import Plans from './components/Plans';
+import Events from './components/Events';
+import Marketplace from './components/Marketplace';
+import Instagram from './components/Instagram';
+import Testimonials from './components/Testimonials';
+import AceleraLab from './components/AceleraLab';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
