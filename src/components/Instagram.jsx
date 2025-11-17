@@ -2,25 +2,49 @@ import React from 'react';
 import { Instagram as InstagramIcon } from 'lucide-react';
 
 const Instagram = () => {
+  const images = [
+    'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=400&q=80',
+    'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&q=80',
+    'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&q=80',
+    'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80',
+    'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&q=80',
+    'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400&q=80'
+  ];
+
   return (
-    <section className="py-20 bg-gray-900">
-      <div className="container mx-auto px-4">
+    <section className="py-24 bg-gray-900 relative overflow-hidden">
+      <div className="absolute top-1/2 left-0 w-96 h-96 bg-pink-500/5 rounded-full blur-3xl"></div>
+
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">#AceleraClub no Instagram</h2>
+          <div className="inline-block bg-pink-500/10 border border-pink-500/30 rounded-full px-4 py-2 mb-4">
+            <span className="text-sm font-semibold text-pink-400">REDES SOCIAIS</span>
+          </div>
+          <h2 className="text-4xl md:text-5xl font-black mb-4">
+            <span className="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">#AceleraClub</span> no Instagram
+          </h2>
           <p className="text-gray-400 text-lg">Acompanhe nosso dia a dia nas pistas</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
-          {[1, 2, 3, 4, 5, 6].map((i) => (
-            <div key={i} className="aspect-square bg-gray-800 rounded-lg hover:opacity-80 transition flex items-center justify-center text-4xl">
-              📸
+          {images.map((img, i) => (
+            <div key={i} className="group relative aspect-square rounded-xl overflow-hidden border-2 border-gray-800 hover:border-pink-500 transition-all duration-300 cursor-pointer">
+              <img 
+                src={img}
+                alt={`Instagram post ${i + 1}`}
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
+                <InstagramIcon className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" size={32} />
+              </div>
             </div>
           ))}
         </div>
 
         <div className="text-center">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="inline-block border-2 border-red-600 hover:bg-red-600 text-white px-8 py-3 rounded-lg font-bold transition flex items-center gap-2 mx-auto w-fit">
-            <InstagramIcon /> SIGA @acelaraclub_rio
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 border-2 border-pink-500 hover:bg-pink-500/10 text-white px-8 py-3 rounded-xl font-bold transition-all duration-300 group">
+            <InstagramIcon className="group-hover:scale-110 transition-transform" /> 
+            SIGA @acelaraclub_rio
           </a>
         </div>
       </div>
