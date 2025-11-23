@@ -3,14 +3,14 @@ import { ShoppingCart } from 'lucide-react';
 
 const Marketplace = () => {
   const products = [
-    { name: 'Camiseta Acelera', price: 'R$ 89,90', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&q=80' },
-    { name: 'Boné Racing', price: 'R$ 69,90', image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400&q=80' },
-    { name: 'Keychain F1 2024', price: 'R$ 39,90', image: 'https://images.unsplash.com/photo-1611863786234-e14f94832067?w=400&q=80' },
-    { name: 'Miniatura McLaren', price: 'R$ 249,90', image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400&q=80' },
-    { name: 'Jaqueta Paddock', price: 'R$ 299,00', image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&q=80' },
-    { name: 'Photocard Senna', price: 'R$ 15,90', image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=400&q=80' },
-    { name: 'Box Mensal', price: 'R$ 79,90', image: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=400&q=80' },
-    { name: 'Capacete Réplica', price: 'R$ 899,00', image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80' }
+    { name: 'Camiseta Acelera', price: 'R$ 89,90', image: '/images/marketplace/1.jpg'},
+    { name: 'Boné Racing', price: 'R$ 69,90', image: '/images/marketplace/2.jpg' },
+    { name: 'Keychain F1 2024', price: 'R$ 39,90', image: '/images/marketplace/3.jpg' },
+    { name: 'Miniatura McLaren', price: 'R$ 249,90', image: '/images/marketplace/4.jpg' },
+    { name: 'Jaqueta Paddock', price: 'R$ 299,00', image: '/images/marketplace/5.jpg' },
+    { name: 'Photocard Senna', price: 'R$ 15,90', image: '/images/marketplace/6.jpg' },
+    { name: 'Box Mensal', price: 'R$ 79,90', image: '/images/marketplace/7.jpg' },
+    { name: 'Capacete Réplica', price: 'R$ 899,00', image: '/images/marketplace/8.jpg' }
   ];
 
   return (
