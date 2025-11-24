@@ -50,7 +50,7 @@ Comunidade completa para fãs de automobilismo com simuladores, eventos e market
 
 ![Preview](./public/images/site-preview.png)
 
-*Design moderno e futurista inspirado em equipes de Fórmula 1*
+*Design inspirado em equipes de Fórmula 1*
 
 </div>
 
