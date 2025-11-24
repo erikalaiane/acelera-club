@@ -8,7 +8,7 @@ const Marketplace = () => {
     { name: 'Keychain F1 2024', price: 'R$ 39,90', image: '/images/marketplace/3.jpg' },
     { name: 'Miniatura McLaren', price: 'R$ 249,90', image: '/images/marketplace/4.jpg' },
     { name: 'Jaqueta Paddock', price: 'R$ 299,00', image: '/images/marketplace/5.jpg' },
-    { name: 'Photocard Senna', price: 'R$ 15,90', image: '/images/marketplace/6.jpg' },
+    { name: 'Photocards', price: 'R$ 15,90', image: '/images/marketplace/6.jpg' },
     { name: 'Box Mensal', price: 'R$ 79,90', image: '/images/marketplace/7.jpg' },
     { name: 'Capacete Réplica', price: 'R$ 899,00', image: '/images/marketplace/8.jpg' }
   ];
