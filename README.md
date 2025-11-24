@@ -48,7 +48,7 @@ Comunidade completa para fãs de automobilismo com simuladores, eventos e market
 
 <div align="center">
 
-![Preview](./public/site-preview.png)
+![Preview](./public/images/site-preview.png)
 
 *Design moderno e futurista inspirado em equipes de Fórmula 1*
 
