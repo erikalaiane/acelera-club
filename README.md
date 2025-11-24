@@ -43,10 +43,11 @@ Comunidade completa para fãs de automobilismo com simuladores, eventos e market
 - **[Autoprefixer](https://github.com/postcss/autoprefixer)** - Adiciona prefixos de fornecedores automaticamente
 
 ---
-
 ## Preview
 
 <div align="center">
+
+[![Ver Site Ao Vivo](https://img.shields.io/badge/🚀_Ver_Site_Ao_Vivo-E10600?style=for-the-badge)](https://erikalaiane.github.io/acelera-club/)
 
 ![Preview](./public/images/site-preview.png)
 
